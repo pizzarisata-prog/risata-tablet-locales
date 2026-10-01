@@ -19,7 +19,7 @@ object-fit: contain;
 </style>
 </head>
 <body>
-<div class="slide active"><img src="LA ARGENTA 916 tablet.jpg"></div>
+<div class="slide active"><img src="grosa mundiale 916 tablet.jpg"></div>
 <div class="slide"><img src="almedrata 916.jpeg"></div>
 <div class="slide"><img src="combo la nuestra 916.jpg"></div>
 <div class="slide"><img src="combo marga 916.jpg"></div>
@@ -31,6 +31,11 @@ let current = 0;
 setInterval(() => {
 slides[current].classList.remove('active');
 current = (current + 1) % slides.length;
+slides[current].classList.add('active');
+}, 5000);
+</script>
+</body>
+</html>
 slides[current].classList.add('active');
 }, 5000);
 </script>
